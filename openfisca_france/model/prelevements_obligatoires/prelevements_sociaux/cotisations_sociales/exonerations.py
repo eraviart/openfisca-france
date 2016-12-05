@@ -104,7 +104,7 @@ class exoneration_cotisations_employeur_zfu(Variable):
 # routiers de marchandises, ne pourront pas bénéficier de cette exonération.
 
 # Embauche de résidents (clause d'embauche locale)
-# Pour les entreprises qui se créent ou s'implantent dans une ZFU à compter du 1er janvier 2012,  le bénéfice de
+# Pour les entreprises qui se créent ou s'implantent dans une ZFU à compter du 1er janvier 2012, le bénéfice de
 # l'exonération des cotisations sociales est subordonnée lors de toute nouvelle embauche à la condition que la moitié
 # de salariés embauchés ou employés résident en ZFU ou en zone urbaine sensible.
 #

@@ -207,7 +207,7 @@ class agff_employeur(Variable):
 class agirc_gmp_assiette(Variable):
     column = FloatCol
     entity = Individu
-    label = u"Assiette de la cotisation AGIRC pour la garantie minimale de points (GMP,  salarié)"
+    label = u"Assiette de la cotisation AGIRC pour la garantie minimale de points (GMP, salarié)"
     # TODO: gestion annuel/mensuel
 
     def function(self, simulation, period):
@@ -224,7 +224,7 @@ class agirc_gmp_assiette(Variable):
 class agirc_gmp_salarie(Variable):
     column = FloatCol
     entity = Individu
-    label = u"Cotisation AGIRC pour la garantie minimale de points (GMP,  salarié)"
+    label = u"Cotisation AGIRC pour la garantie minimale de points (GMP, salarié)"
     # TODO: gestion annuel/mensuel
 
     def function(self, simulation, period):
@@ -327,7 +327,7 @@ class ags(Variable):
 class apec_salarie(Variable):
     column = FloatCol
     entity = Individu
-    label = u"Cotisations agence pour l'emploi des cadres (APEC,  salarié)"
+    label = u"Cotisations agence pour l'emploi des cadres (APEC, salarié)"
 
     def function(self, simulation, period):
         period = period.start.period(u'month').offset('first-of')

@@ -513,7 +513,7 @@ class ape_avant_cumul(Variable):
         En revanche, elles peuvent cumuler deux taux partiels, à condition que leur total ne dépasse pas le montant
         du taux plein.
 
-        TODO: cumul,  adoption, triplés,
+        TODO: cumul, adoption, triplés,
         Cumul d'allocations : Cette allocation n'est pas cumulable pour un même ménage avec
         - une autre APE (sauf à taux partiel),
         - ou l'allocation pour jeune enfant (APJE) versée à partir de la naissance,

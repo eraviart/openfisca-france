@@ -253,7 +253,7 @@ class isf_actions_sal(Variable):  # # non présent en 2005##
         b1cl = simulation.calculate('b1cl', period)
         P = simulation.legislation_at(period.start).taxation_capital.isf.droits_soc
 
-        return period,  b1cl * P.taux1
+        return period, b1cl * P.taux1
 
 
 class isf_droits_sociaux(Variable):

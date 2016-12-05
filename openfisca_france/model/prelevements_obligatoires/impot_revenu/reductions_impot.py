@@ -1017,7 +1017,7 @@ class doment(DatedVariable):
         f7qz = simulation.calculate('f7qz', period)
         f7rz = simulation.calculate('f7rz', period)
 
-        return period,  f7ur + f7oz + f7pz + f7qz + f7rz
+        return period, f7ur + f7oz + f7pz + f7qz + f7rz
 
     @dated_function(start = date(2006, 1, 1), stop = date(2008, 12, 31))
     def function_20060101_20081231(self, simulation, period):
@@ -1032,7 +1032,7 @@ class doment(DatedVariable):
         f7rz = simulation.calculate('f7rz', period)
         f7sz = simulation.calculate('f7sz', period)
 
-        return period,  f7ur + f7oz + f7pz + f7qz + f7rz + f7sz
+        return period, f7ur + f7oz + f7pz + f7qz + f7rz + f7sz
 
     @dated_function(start = date(2009, 1, 1), stop = date(2009, 12, 31))
     def function_20090101_20091231(self, simulation, period):
@@ -1052,7 +1052,7 @@ class doment(DatedVariable):
         f7qi = simulation.calculate('f7qi', period)
         f7qj = simulation.calculate('f7qj', period)
 
-        return period,  f7oz + f7pz + f7qz + f7rz + f7sz + f7qe + f7qf + f7qg + f7qh + f7qi + f7qj
+        return period, f7oz + f7pz + f7qz + f7rz + f7sz + f7qe + f7qf + f7qg + f7qh + f7qi + f7qj
 
     @dated_function(start = date(2010, 1, 1), stop = date(2010, 12, 31))
     def function_20100101_20101231(self, simulation, period):
@@ -1536,7 +1536,7 @@ class domsoc(DatedVariable):
         f7qw = simulation.calculate('f7qw', period)
         f7qx = simulation.calculate('f7qx', period)
 
-        return period,  f7qn + f7qk + f7qu + f7kg + f7kh + f7ki + f7qj + f7qs + f7qw + f7qx
+        return period, f7qn + f7qk + f7qu + f7kg + f7kh + f7ki + f7qj + f7qs + f7qw + f7qx
 
     @dated_function(start = date(2013, 1, 1), stop = date(2013, 12, 31))
     def function_20130101_20131231(self, simulation, period):
@@ -1561,7 +1561,7 @@ class domsoc(DatedVariable):
         f7qw = simulation.calculate('f7qw', period)
         f7qx = simulation.calculate('f7qx', period)
 
-        return period,  fhra + fhrb + fhrc + fhrd + f7qn + f7qk + f7qu + f7kg + f7kh + f7ki + f7qj + f7qs + f7qw + f7qx
+        return period, fhra + fhrb + fhrc + fhrd + f7qn + f7qk + f7qu + f7kg + f7kh + f7ki + f7qj + f7qs + f7qw + f7qx
 
 
 class donapd(DatedVariable):
