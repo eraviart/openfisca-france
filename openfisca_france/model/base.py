@@ -2,6 +2,8 @@
 
 from datetime import date
 
+from numpy import maximum as max_, minimum as min_, logical_not as not_, where, select
+
 from openfisca_core.columns import (AgeCol, BoolCol, DateCol, EnumCol, FixedStrCol, FloatCol, IntCol,
     PeriodSizeIndependentIntCol, StrCol)
 from openfisca_core.enumerations import Enum
@@ -47,8 +49,11 @@ __all__ = [
     'Individu',
     'IntCol',
     'last_duration_last_value',
+    'max_',
     'Menage',
+    'min_',
     'missing_value',
+    'not_',
     'PAC1',
     'PAC2',
     'PAC3',
@@ -62,6 +67,7 @@ __all__ = [
     'requested_period_default_value',
     'requested_period_last_or_next_value',
     'requested_period_last_value',
+    'select',
     'set_input_dispatch_by_period',
     'set_input_divide_by_period',
     'StrCol',
@@ -69,6 +75,7 @@ __all__ = [
     'TAUX_DE_PRIME',
     'Variable',
     'VOUS',
+    'where',
     ]
 
 CAT = Enum([
