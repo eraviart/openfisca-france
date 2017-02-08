@@ -126,6 +126,7 @@ class coefficient_proratisation(Variable):
 
 
 class credit_impot_competitivite_emploi(DatedVariable):
+    calculate_output = calculate_output_add
     column = FloatCol
     entity = Individu
     label = u"Crédit d'imôt pour la compétitivité et l'emploi"
@@ -298,6 +299,7 @@ class smic_proratise(Variable):
 
 
 class allegement_fillon(DatedVariable):
+    calculate_output = calculate_output_add
     column = FloatCol
     entity = Individu
     label = u"Allègement de charges employeur sur les bas et moyens salaires (dit allègement Fillon)"

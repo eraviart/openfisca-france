@@ -194,6 +194,7 @@ class accident_du_travail(Variable):
 
 
 class agff_salarie(Variable):
+    calculate_output = calculate_output_add
     column = FloatCol
     entity = Individu
     label = u"Cotisation retraite AGFF tranche A (salarié)"
@@ -262,6 +263,7 @@ class agirc_gmp_assiette(Variable):
 
 
 class agirc_gmp_salarie(Variable):
+    calculate_output = calculate_output_add
     column = FloatCol
     entity = Individu
     label = u"Cotisation AGIRC pour la garantie minimale de points (GMP,  salarié)"
@@ -316,6 +318,7 @@ class agirc_gmp_employeur(Variable):
 
 
 class agirc_salarie(Variable):
+    calculate_output = calculate_output_add
     column = FloatCol
     entity = Individu
     label = u"Cotisation AGIRC tranche B (salarié)"
