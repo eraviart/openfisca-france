@@ -1,5 +1,11 @@
 # Changelog
 
+### 14.1.1 - [#697](https://github.com/openfisca/openfisca-france/pull/697)
+
+* Amélioration technique
+* Utilise le module `core.formulas_toolbox` plutôt que de réimporter un par un tous les objets python nécessaire pour écrire une formule
+    - Aucun impact pour les ré-utilisateurs
+
 ## 14.1.0 - [#685](https://github.com/openfisca/openfisca-france/pull/685)
 
 * Amélioration technique
