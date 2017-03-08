@@ -1,5 +1,17 @@
 # Changelog
 
+## 14.2.0 - [#685](https://github.com/openfisca/openfisca-france/pull/699)
+
+* Amélioration technique
+* Périodes concernées : toutes
+* Zones impactées : revenus/activite/salarie/salaire_net_a_payer, réformes et tests
+* Détails :
+  - Spécifie toujours une période dans les appels de variables, dans les formules et dans les tests.
+
+Ces changements :
+  - Adaptent `france` à  la version `7.0.0` de `core`.
+  - Corrigent des calculs déjà existants.
+
 ## 14.1.0 - [#685](https://github.com/openfisca/openfisca-france/pull/685)
 
 * Amélioration technique
